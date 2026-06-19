@@ -1,0 +1,7 @@
+com\apitesting\demo\utils\TestLogger.class
+com\apitesting\demo\models\Brand.class
+com\apitesting\demo\tests\BaseTest.class
+com\apitesting\demo\models\Product.class
+com\apitesting\demo\utils\APIConstants.class
+com\apitesting\demo\utils\ConfigReader.class
+com\apitesting\demo\tests\AutomationExercisePlaywrightAPITest.class

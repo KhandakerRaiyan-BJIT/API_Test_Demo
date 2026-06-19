@@ -1,0 +1,11 @@
+===== Test Run Started: 2026-06-19 11:08:46 =====
+[2026-06-19 11:08:52] [SUITE] Base URL: https://automationexercise.com
+[2026-06-19 11:08:52] [SUITE] Log file: target\test-logs\api-test.log
+[2026-06-19 11:08:52] [TC01 - Get all products list] START
+[2026-06-19 11:08:53] [TC01 - Get all products list] Endpoint: /api/productsList | Status: 200
+[2026-06-19 11:08:53] [TC01 - Get all products list] Response body: {"responseCode": 200, "products": [{"id": 1, "name": "Blue Top", "price": "Rs. 500", "brand": "Polo", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 2, "name": "Men Tshirt", "price": "Rs. 400", "brand": "H&M", "category": {"usertype": {"usertype": "Men"}, "category": "Tshirts"}}, {"id": 3, "name": "Sleeveless Dress", "price": "Rs. 1000", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Dress"}}, {"id": 4, "name": "Stylish Dress", "price": "Rs. 1500", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Dress"}}, {"id": 5, "name": "Winter Top", "price": "Rs. 600", "brand": "Mast & Harbour", "category": {"u...
+[2026-06-19 11:08:53] [TC01 - Get all products list] END
+[2026-06-19 11:08:53] [TC02 - POST to products list is not allowed] START
+[2026-06-19 11:08:54] [TC02 - POST to products list is not allowed] Endpoint: /api/productsList | Status: 200
+[2026-06-19 11:08:54] [TC02 - POST to products list is not allowed] Response body: {"responseCode": 405, "message": "This request method is not supported."}
+[2026-06-19 11:08:54] [TC02 - POST to products list is not allowed] END
