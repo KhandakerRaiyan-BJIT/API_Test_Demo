@@ -5,6 +5,8 @@ import com.apitesting.demo.models.Product;
 import com.apitesting.demo.utils.APIConstants;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.options.FormData;
 import com.microsoft.playwright.options.RequestOptions;
@@ -74,9 +76,9 @@ public class AutomationExercisePlaywrightAPITest extends BaseTest {
 
         assertEquals(APIConstants.OK, response.status());
 
-        JsonNode json = readBody(responseBody);
-        assertEquals(APIConstants.METHOD_NOT_ALLOWED, json.path("responseCode").asInt());
-        assertEquals(APIConstants.NOT_SUPPORTED_MESSAGE, json.path("message").asText());
+        JsonObject json = JsonParser.parseString(responseBody).getAsJsonObject();
+        assertEquals(APIConstants.METHOD_NOT_ALLOWED, json.get("responseCode").getAsInt());
+        assertEquals(APIConstants.NOT_SUPPORTED_MESSAGE, json.get("message").getAsString());
     }
 
     @Test
@@ -111,9 +113,9 @@ public class AutomationExercisePlaywrightAPITest extends BaseTest {
 
         assertEquals(APIConstants.OK, response.status());
 
-        JsonNode json = readBody(responseBody);
-        assertEquals(APIConstants.METHOD_NOT_ALLOWED, json.path("responseCode").asInt());
-        assertEquals(APIConstants.NOT_SUPPORTED_MESSAGE, json.path("message").asText());
+        JsonObject json = JsonParser.parseString(responseBody).getAsJsonObject();
+        assertEquals(APIConstants.METHOD_NOT_ALLOWED, json.get("responseCode").getAsInt());
+        assertEquals(APIConstants.NOT_SUPPORTED_MESSAGE, json.get("message").getAsString());
     }
 
     @Test

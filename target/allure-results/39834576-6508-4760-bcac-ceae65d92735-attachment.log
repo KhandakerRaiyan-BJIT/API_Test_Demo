@@ -17,7 +17,3 @@
 [2026-06-19 11:17:05] [TC04 - PUT to brands list is not allowed] Endpoint: /api/brandsList | Status: 200
 [2026-06-19 11:17:05] [TC04 - PUT to brands list is not allowed] Response body: {"responseCode": 405, "message": "This request method is not supported."}
 [2026-06-19 11:17:05] [TC04 - PUT to brands list is not allowed] END
-[2026-06-19 11:17:05] [TC05 - Search products] START
-[2026-06-19 11:17:06] [TC05 - Search products] Endpoint: /api/searchProduct | Status: 200
-[2026-06-19 11:17:06] [TC05 - Search products] Response body: {"responseCode": 200, "products": [{"id": 1, "name": "Blue Top", "price": "Rs. 500", "brand": "Polo", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 5, "name": "Winter Top", "price": "Rs. 600", "brand": "Mast & Harbour", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 6, "name": "Summer White Top", "price": "Rs. 400", "brand": "H&M", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 7, "name": "Madame Top For Women", "price": "Rs. 1000", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 8, "name": "Fancy Green Top", "price": "Rs. 700", "brand": "Polo", "category...
-[2026-06-19 11:17:06] [TC05 - Search products] END

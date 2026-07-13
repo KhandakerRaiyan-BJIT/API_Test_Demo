@@ -1,6 +1,0 @@
-===== Test Run Started: 2026-07-13 11:11:20 =====
-[2026-07-13 11:11:29] [SUITE] Base URL: https://automationexercise.com
-[2026-07-13 11:11:29] [SUITE] Log file: target\test-logs\api-test.log
-[2026-07-13 11:11:29] [L01 - Demonstrate common locator actions] START
-[2026-07-13 11:11:30] [L01 - Demonstrate common locator actions] Locator actions guide completed successfully
-[2026-07-13 11:11:31] [L01 - Demonstrate common locator actions] END
