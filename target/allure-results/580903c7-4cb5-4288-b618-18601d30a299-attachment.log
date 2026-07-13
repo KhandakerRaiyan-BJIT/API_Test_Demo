@@ -1,0 +1,6 @@
+===== Test Run Started: 2026-07-13 11:18:43 =====
+[2026-07-13 11:18:44] [SUITE] Base URL: https://automationexercise.com
+[2026-07-13 11:18:44] [SUITE] Log file: target\test-logs\api-test.log
+[2026-07-13 11:18:44] [G01 - Demonstrate simple form actions] START
+[2026-07-13 11:18:49] [G01 - Demonstrate simple form actions] Simple actions guide completed successfully
+[2026-07-13 11:18:49] [G01 - Demonstrate simple form actions] END
