@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.apitesting.demo.tests.AccessibilityTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.45 s -- in com.apitesting.demo.tests.AccessibilityTest

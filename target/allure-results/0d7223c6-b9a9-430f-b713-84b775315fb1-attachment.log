@@ -1,0 +1,69 @@
+===== Test Run Started: 2026-07-08 10:58:31 =====
+[2026-07-08 10:58:38] [SUITE] Base URL: https://automationexercise.com
+[2026-07-08 10:58:38] [SUITE] Log file: target\test-logs\api-test.log
+[2026-07-08 10:58:38] [A01 - Verify products page has no accessibility violations] START
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] ✓ Page title exists: Automation Exercise - All Products
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] ✓ All images have alt text
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] ✓ Inputs have accessible labels
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] ✓ Page viewport: {width=1280, height=720}
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] Accessibility Check on Products Page - Total Violations: 2
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] WARNING: 2 minor accessibility issues found on Products Page:
+[Page should have at least one H1 element, 2 button(s) missing accessible name]
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] END
+[2026-07-08 10:58:42] [A01 - Verify products page has no accessibility violations] END
+[2026-07-08 10:58:42] [A02 - Verify home page has no accessibility violations] START
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] ✓ Page title exists: Automation Exercise
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] ✓ H1 element found
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] ✓ All images have alt text
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] ✓ Inputs have accessible labels
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] ✓ Page viewport: {width=1280, height=720}
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] Accessibility Check on Home Page - Total Violations: 1
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] WARNING: 1 minor accessibility issues found on Home Page:
+[1 button(s) missing accessible name]
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] END
+[2026-07-08 10:58:46] [A02 - Verify home page has no accessibility violations] END
+[2026-07-08 10:58:46] [A03 - Verify cart page has no accessibility violations] START
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] ✓ Page title exists: Automation Exercise - Checkout
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] ✓ All images have alt text
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] ✓ Inputs have accessible labels
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] ✓ Page viewport: {width=1280, height=720}
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] Accessibility Check on Cart Page - Total Violations: 2
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] WARNING: 2 minor accessibility issues found on Cart Page:
+[Page should have at least one H1 element, 1 button(s) missing accessible name]
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] END
+[2026-07-08 10:58:50] [A03 - Verify cart page has no accessibility violations] END
+[2026-07-08 10:58:50] [A04 - Verify signup/login page has no accessibility violations] START
+[2026-07-08 10:58:54] [A04 - Verify signup/login page has no accessibility violations] ✓ Page title exists: Automation Exercise - Signup / Login
+[2026-07-08 10:58:54] [A04 - Verify signup/login page has no accessibility violations] ✓ All images have alt text
+[2026-07-08 10:58:54] [A04 - Verify signup/login page has no accessibility violations] ✓ Page viewport: {width=1280, height=720}
+[2026-07-08 10:58:54] [A04 - Verify signup/login page has no accessibility violations] Accessibility Check on Signup/Login Page - Total Violations: 3
+[2026-07-08 10:58:54] [A04 - Verify signup/login page has no accessibility violations] WARNING: 3 minor accessibility issues found on Signup/Login Page:
+[Page should have at least one H1 element, 4 input(s) missing aria-label or id, 1 button(s) missing accessible name]
+[2026-07-08 10:58:54] [A04 - Verify signup/login page has no accessibility violations] END
+[2026-07-08 10:58:54] [A04 - Verify signup/login page has no accessibility violations] END
+[2026-07-08 10:58:54] [A05 - Verify navigation header has no accessibility violations (specific region scan)] START
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] Scanning specific region: Navigation Header [header, nav]
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] ✓ Found 1 element(s) matching selector
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] ✓ All 1 link(s) in Navigation Header have accessible names
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] ✓ All 1 button(s) in Navigation Header have accessible names
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] ✓ All 1 input(s) in Navigation Header have labels
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] Region scan completed: Navigation Header - Violations: 0, Warnings: 1
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] Navigation header scan completed successfully
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] END
+[2026-07-08 10:59:00] [A05 - Verify navigation header has no accessibility violations (specific region scan)] END
+[2026-07-08 10:59:00] [A06 - Verify product list has no accessibility violations (specific region scan)] START
+[2026-07-08 10:59:04] [A06 - Verify product list has no accessibility violations (specific region scan)] Scanning specific region: Product List [.products, [class*='product']]
+[2026-07-08 10:59:04] [A06 - Verify product list has no accessibility violations (specific region scan)] ✓ Found 138 element(s) matching selector
+[2026-07-08 10:59:04] [A06 - Verify product list has no accessibility violations (specific region scan)] ✓ All images in Product List have alt text
+[2026-07-08 10:59:06] [A06 - Verify product list has no accessibility violations (specific region scan)] ✓ All 123 link(s) in Product List have accessible names
+[2026-07-08 10:59:06] [A06 - Verify product list has no accessibility violations (specific region scan)] Region scan completed: Product List - Violations: 0, Warnings: 0
+[2026-07-08 10:59:06] [A06 - Verify product list has no accessibility violations (specific region scan)] Product list scan completed successfully
+[2026-07-08 10:59:06] [A06 - Verify product list has no accessibility violations (specific region scan)] END
+[2026-07-08 10:59:06] [A06 - Verify product list has no accessibility violations (specific region scan)] END
+[2026-07-08 10:59:06] [A07 - Verify login form has no accessibility violations (form region scan)] START
+[2026-07-08 10:59:09] [A07 - Verify login form has no accessibility violations (form region scan)] Scanning specific region: Login Form [form]
+[2026-07-08 10:59:09] [A07 - Verify login form has no accessibility violations (form region scan)] ✓ Found 3 element(s) matching selector
+[2026-07-08 10:59:09] [A07 - Verify login form has no accessibility violations (form region scan)] ✓ All images in Login Form have alt text
+[2026-07-08 10:59:09] [A07 - Verify login form has no accessibility violations (form region scan)] Region scan completed: Login Form - Violations: 0, Warnings: 2
+[2026-07-08 10:59:09] [A07 - Verify login form has no accessibility violations (form region scan)] Login form accessibility check completed
+[2026-07-08 10:59:10] [A07 - Verify login form has no accessibility violations (form region scan)] END
